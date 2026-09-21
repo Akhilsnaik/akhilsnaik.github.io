@@ -7,6 +7,8 @@ export const profile = {
   email: 'akhilsnaikk@gmail.com',
   github: 'https://github.com/akhilsnaik',
   linkedin: 'https://www.linkedin.com/in/akhilsnaik/',
+  twitter: 'https://x.com/akhilsnaik',
+  instagram: 'https://instagram.com/akhilsnaik',
   resume: '/files/Akhil_S_Naik_Resume.pdf',
   avatar: '/images/akhil.png',
 };

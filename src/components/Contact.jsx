@@ -15,13 +15,21 @@ export default function Contact() {
       >
         {profile.email}
       </a>
-      <div className="mt-6 flex justify-center gap-4 text-sm font-medium text-slate-600 dark:text-slate-400">
+      <div className="mt-6 flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm font-medium text-slate-600 dark:text-slate-400">
         <a href={profile.github} target="_blank" rel="noreferrer" className="hover:text-slate-900 dark:hover:text-white">
           GitHub
         </a>
         <span aria-hidden="true">·</span>
         <a href={profile.linkedin} target="_blank" rel="noreferrer" className="hover:text-slate-900 dark:hover:text-white">
           LinkedIn
+        </a>
+        <span aria-hidden="true">·</span>
+        <a href={profile.twitter} target="_blank" rel="noreferrer" className="hover:text-slate-900 dark:hover:text-white">
+          X
+        </a>
+        <span aria-hidden="true">·</span>
+        <a href={profile.instagram} target="_blank" rel="noreferrer" className="hover:text-slate-900 dark:hover:text-white">
+          Instagram
         </a>
       </div>
     </section>
