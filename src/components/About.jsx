@@ -1,12 +1,24 @@
 import Section from './Section.jsx';
 import { about, education } from '../data.js';
 
+function renderWithBold(text) {
+  return text.split(/\*\*(.+?)\*\*/g).map((part, i) =>
+    i % 2 === 1 ? (
+      <strong key={i} className="font-semibold text-slate-900 dark:text-white">
+        {part}
+      </strong>
+    ) : (
+      part
+    )
+  );
+}
+
 export default function About() {
   return (
     <Section id="about" title="About Me">
       <div className="space-y-4 text-base leading-relaxed text-slate-600 dark:text-slate-400">
         {about.map((paragraph) => (
-          <p key={paragraph.slice(0, 24)}>{paragraph}</p>
+          <p key={paragraph.slice(0, 24)}>{renderWithBold(paragraph)}</p>
         ))}
       </div>
 

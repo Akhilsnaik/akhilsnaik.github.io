@@ -12,9 +12,10 @@ export const profile = {
 };
 
 export const about = [
-  "I'm a Senior Member of Technical Staff at Salesforce, on the Customer-Centric Engineering team at MuleSoft, where I build and support Mule connectors that help customers integrate their systems.",
-  "Before this, I spent over a decade at Cloudera and Hortonworks working on the Apache Hadoop ecosystem — I'm a committer on Apache Ambari and Apache Hue, and a contributor to Apache Zeppelin. That work was full-stack: Java and Python on the backend, JavaScript frameworks on the front, plus a lot of on-call and critical-issue support.",
-  "Outside of work I like reading, cycling, badminton, and traveling. I'm also curious about deep learning and computer vision, and enjoy building small web projects for fun.",
+  "I'm a Senior Member of Technical Staff at Salesforce, working with the MuleSoft Connectors team in Customer-Centric Engineering. I spend most of my time building, maintaining, and troubleshooting connectors that help customers connect MuleSoft to the systems they rely on—from databases and messaging platforms to cloud services and enterprise applications.",
+  "Before Salesforce, I spent seven years at Hortonworks and Cloudera (2017–2024), working across the Apache Hadoop ecosystem. I'm a committer on Apache Ambari and Apache Hue, and a contributor to Apache Zeppelin. My work has ranged from backend engineering in Java and Python to frontend development, distributed systems, and solving the kind of production issues that require digging through logs, code, protocols, and infrastructure to understand what is really happening.",
+  "I enjoy engineering problems that sit somewhere between **building things and figuring things out**. Whether it's debugging a stubborn SFTP connection, understanding a Kafka or database failure, improving a connector, or simplifying a repetitive investigation, I like getting to the root cause and turning that understanding into something useful.",
+  "Outside of work, I enjoy badminton, cycling, traveling, reading, and building small web projects just for the fun of it. I'm also curious about machine learning, deep learning, and computer vision—and generally enjoy experimenting with new technologies and ideas.",
 ];
 
 export const experience = [
