@@ -74,7 +74,7 @@ export const education = {
 export const skills = {
   Languages: ['Java', 'Python', 'JavaScript', 'HTML5', 'CSS / LESS / Sass'],
   'Frameworks & Libraries': ['MuleSoft / Anypoint', 'React', 'Ember.js', 'AngularJS', 'Django', 'Node.js / Express', 'Handlebars.js', 'jQuery', 'Tailwind CSS'],
-  'Tools & Practices': ['Git', 'Maven', 'Linux', 'JUnit', 'Canvas', 'Bootstrap'],
+  'Tools & Practices': ['Git', 'Docker', 'Maven', 'Linux', 'JUnit', 'Canvas', 'Bootstrap'],
 };
 
 export const projects = [
