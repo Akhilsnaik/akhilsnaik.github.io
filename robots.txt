@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://akhilsnaik.github.io/sitemap.xml
